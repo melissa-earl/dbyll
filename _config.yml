@@ -2,19 +2,18 @@
 
 paginate: 10 # pagination based on number of posts
 paginate_path: "page:num"
-exclude: ["README.md"] # files to exclude
 highlighter: rouge
 markdown: kramdown
 disqus: dbyll
-google_analytics: dbyll
-title: dbyll
+google_analytics: Kimetrica Wiki
+title: Kimetrica Wiki
 
 defaults:
   -
     scope:
       path: "" # empty string for all files
     values:
-      title: dbyll
+      title: Kimetrica
 
 description: Stylish Jekyll Theme
 author:
@@ -29,7 +28,7 @@ categories_path: categories.html
 tags_path: tags.html
 
 # set it as url of an image
-# sidebar_background_image: <img src="/static/images/logo.30efce685dc1.png" alt="">
+sidebar_background_image: <img src="/static/images/logo.30efce685dc1.png" alt="">
 
 BASE_PATH:
 
